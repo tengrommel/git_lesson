@@ -29,3 +29,12 @@ golang编译只和内核有关并不和gcc有关 稳定性好 静态编译
 - Docker
 - kubernetes
 - etcd
+
+### 基础知识
+
+- 编译器 go命令
+- 开发环境和运行环境不同
+- window平台开发下载二进制
+> 源码编译 <br>
+1.5之前：编译版本下载 go1.4.3 c编译器 ./make.bash (gcc依赖) <br>
+1.9之后：自举  需要设计环境变量和golang的编译器
