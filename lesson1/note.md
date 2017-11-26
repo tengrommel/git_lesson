@@ -37,4 +37,16 @@ golang编译只和内核有关并不和gcc有关 稳定性好 静态编译
 - window平台开发下载二进制
 > 源码编译 <br>
 1.5之前：编译版本下载 go1.4.3 c编译器 ./make.bash (gcc依赖) <br>
-1.9之后：自举  需要设计环境变量和golang的编译器
+1.9之后：自举  需要设计环境变量和golang的编译器<br>
+GOROOT<br>
+GOPATH<br>
+PATH<br>
+- 其他平台的编译
+> GOOS=linux go build hello.go<br>
+GOOS=windows go build hello.go
+-window开发编译
+> set GOOS=linux<br>
+go build hello.go
+- 代码规范 go fmt -w hello.go
+- 自动引入包 goimports -w hello.go
+- 启动 HTTPS_PROXY=http://192.168.1.53:20000 atom 代理
