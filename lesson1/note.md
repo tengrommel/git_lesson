@@ -55,3 +55,10 @@ go build hello.go
 - src
 - bin
 - pkg
+- go get 下载并编译
+- godoc -http=:9090
+
+### 指针
+> 什么是变量<br>
+内存的标识符<br>
+变量里存的不是内容而是另一个变量的地址<br>
