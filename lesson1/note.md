@@ -50,3 +50,8 @@ go build hello.go
 - 代码规范 go fmt -w hello.go
 - 自动引入包 goimports -w hello.go
 - 启动 HTTPS_PROXY=http://192.168.1.53:20000 atom 代理
+
+### GOPATH
+- src
+- bin
+- pkg
