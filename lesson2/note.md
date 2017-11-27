@@ -7,3 +7,12 @@
 - 放在程序的第一行
 - 两种package，一种是库package，一种是二进制package
 - 二进制package使用main来表示，库package的名字跟go文件所在的目录名一样
+> 以`package main`作为文件的第一行<br>
+有且只有一个main函数，如echo.go
+
+
+### go install 
+> 有利于多个文件的组织<br>
+分为两步：<br>
+    第一步 go build<br> 
+    第二步 将执行文件诺至 $GOPATH/bin
