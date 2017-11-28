@@ -16,3 +16,11 @@
 分为两步：<br>
     第一步 go build<br> 
     第二步 将执行文件诺至 $GOPATH/bin
+    
+### go run 和 go install go build的区别
+> go run 针对单个文件<br>
+go install 和 go build 针对package
+
+### no install location location for directory GOPATH
+> 当前代码没有放在gopath下的src目录<br>
+> 如果其他人引用则为以src为根路径的package的全路径
