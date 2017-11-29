@@ -24,3 +24,6 @@ go install 和 go build 针对package
 ### no install location location for directory GOPATH
 > 当前代码没有放在gopath下的src目录<br>
 > 如果其他人引用则为以src为根路径的package的全路径
+
+### 命令行参数
+> Args命令行数组
