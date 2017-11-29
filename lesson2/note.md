@@ -33,3 +33,8 @@ go install 和 go build 针对package
 s:="hello"<br>
 i, j = 0, 1<br>
 - 不能放在全局变量里面
+
+### 指针
+- *T 即为类型T的指针
+- &t 即为去变量t地址
+- *p 即为取指针变量所指向的内容
