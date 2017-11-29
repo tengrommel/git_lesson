@@ -11,12 +11,12 @@
 有且只有一个main函数，如echo.go
 
 
-### go install 
+### go install
 > 有利于多个文件的组织<br>
 分为两步：<br>
-    第一步 go build<br> 
+    第一步 go build<br>
     第二步 将执行文件诺至 $GOPATH/bin
-    
+
 ### go run 和 go install go build的区别
 > go run 针对单个文件<br>
 go install 和 go build 针对package
@@ -28,3 +28,8 @@ go install 和 go build 针对package
 ### 命令行参数
 > Args命令行数组
 
+### 短变量
+> i:=0<br>
+s:="hello"<br>
+i, j = 0, 1<br>
+- 不能放在全局变量里面
