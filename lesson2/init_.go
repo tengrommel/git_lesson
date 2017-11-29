@@ -5,6 +5,7 @@ import "fmt"
 /*
 初值
 bool值的默认值为false
+初始化为零值 安全
  */
 
 func main() {
