@@ -44,3 +44,4 @@ i, j = 0, 1<br>
 
 ### gotty
 > 远程登陆本机 websocket<br>
+tty只是一个终端模拟器
