@@ -17,4 +17,8 @@ func main() {
 	 )
 	fmt.Println(x, x1, x2, x3, x4, x5, x6)
 	fmt.Println(unsafe.Sizeof(x1))
+	str1 := "hello"
+	doc := `你好
+		我换行了`
+	fmt.Println(str1, doc)
 }
