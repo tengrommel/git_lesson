@@ -21,4 +21,8 @@ func main() {
 	doc := `你好
 		我换行了`
 	fmt.Println(str1, doc)
+	var b byte
+	for b=0; b<177; b++{
+		 fmt.Printf("%d %c\n", b, b)
+	}
 }
