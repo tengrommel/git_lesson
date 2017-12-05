@@ -21,6 +21,7 @@ func main() {
 	if err != nil{
 		log.Fatal(err)
 	}
+	defer f.Close()
 	var content string
 	retries := 3
 	for i:=1;i<=retries;i++ {
