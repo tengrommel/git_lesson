@@ -69,7 +69,8 @@ func handshake(r *bufio.Reader, conn net.Conn) error {
 func handleConn(conn net.Conn)  {
 	r := bufio.NewReader(conn)
 	handshake(r, conn)
-	readAddr(r)
+	addr, _ := readAddr(r)
+	log.Printf("addr: %s", addr)
 }
 
 func main() {
