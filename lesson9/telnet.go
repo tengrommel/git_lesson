@@ -12,7 +12,7 @@ import (
 文件 http.RespBody chan socket 需要关闭
  */
 func main() {
-	addr := "123.125.114.144:80"
+	addr := "127.0.0.1:8021"
 	conn, err := net.Dial("tcp", addr)
 	if err != nil{
 		log.Fatal(err)
