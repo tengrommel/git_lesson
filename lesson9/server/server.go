@@ -9,7 +9,7 @@ import (
 
 func handleConn(conn net.Conn)  {
 	defer conn.Close()
-	f, err := os.Open("a.txt")
+	f, err := os.Open("index.html")
 	if err != nil{
 		log.Fatal(err)
 		return
