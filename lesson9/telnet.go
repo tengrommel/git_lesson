@@ -4,6 +4,8 @@ import (
 	"net"
 	"log"
 	"fmt"
+	"io"
+	"os"
 )
 
 /*
@@ -22,11 +24,13 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println("write size", n)
-	buf := make([]byte, 4096)
-	n, err =conn.Read(buf)
-	if err != nil{
-		log.Fatal(err)
-	}
-	fmt.Println(string(buf[:n]))
+	//buf := make([]byte, 4096)
+	//n, err =conn.Read(buf)
+	//if err != nil && err != io.EOF{
+	//	log.Fatal(err)
+	//}
+	//fmt.Println(string(buf[:n]))
+	// 实现按行读取
+	io.Copy(os.Stdout, conn)
 	conn.Close()
 }
