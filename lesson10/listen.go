@@ -9,7 +9,7 @@ import (
 )
 
 var (
-	target = flag.String("target", "www.baidu.com", "target host")
+	target = flag.String("target", "www.qq.com:80", "target host")
 )
 
 func handleConn(conn net.Conn)  {
