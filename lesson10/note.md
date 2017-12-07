@@ -4,6 +4,7 @@
 
 > 指定一个端口 和地址（默认0.0.0.0）<br>
 ssh -D 0.0.0.0:8021 teng@127.0.0.1 <br>
+> VER NMETHODS  METHODS
 
 
 ### golang编写代理服务
