@@ -16,6 +16,6 @@ func main() {
 	if err!= nil{
 		log.Fatal(err)
 	}
-	conn.Write([]byte("hello erlang!\n"))
+	conn.Write([]byte("hello golang!\n"))
 	conn.Close()
 }
